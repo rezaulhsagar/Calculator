@@ -1,7 +1,14 @@
+import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args){
-		int a = 5, b = 2;
+		Scanner sc = new Scanner(System.in);
+		
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		
+		System.out.println("Methods of Arithmetic and Trigonometry class:");
+		
 		//Arithmetic addition
 		System.out.println("Addition: " + Arithmetic.add(a, b));
 		//Arithmetic subtraction
